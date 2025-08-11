@@ -2444,7 +2444,7 @@ h1, h2, h3,
   color: #000000;
   line-height: 1.2;
   background: #EF88AD;
-  background: -moz-linear-gradient(-45deg, #EF88AD 0%, #bd4772 100%);
+  background: -moz-linear-gradient(-45deg, #EF88AD 0%, rgb(189, 71, 114) 100%);
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #EF88AD), color-stop(100%, #bd4772));
   background: -webkit-linear-gradient(-45deg, #EF88AD 0%, #bd4772 100%);
   background: -o-linear-gradient(-45deg, #EF88AD 0%, #bd4772 100%);
