@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const phoneNumber = "919446186026";
 
         const whatsappMessage = `Hello, my name is ${name}.
-			Email: ${email}
-			Subject: ${subject}
-			Message: ${message}`;
+	Email: ${email}
+	Subject: ${subject}
+	Message: ${message}`;
 
         const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
         window.open(url, "_blank");
