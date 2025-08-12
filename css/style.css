@@ -2540,7 +2540,7 @@ textarea.form-control {
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 7em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }
@@ -2986,6 +2986,11 @@ textarea.form-control {
     padding-top: 2px;
     color: white; }
 
+
+#contact-section{
+  scroll-margin-top: 80px;
+}
+
 .contact-section .contact-info p a {
   color: #fff; }
 
@@ -3013,7 +3018,8 @@ textarea.form-control {
   box-shadow: 0px 42px 29px -31px rgba(0, 0, 0, 0.05); }
   @media (max-width: 991.98px) {
     .contact-section .box {
-      margin-bottom: 30px; } }
+      margin-bottom: 30px; 
+    } }
   .contact-section .box .icon {
     width: 100px;
     height: 100px;
