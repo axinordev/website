@@ -122,13 +122,20 @@
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 1,
+					touchDrag: false,
+                	mouseDrag: false
 				},
-				600:{
-					items: 2
+				769:{
+					items: 2,
+					touchDrag: true,
+                	mouseDrag: true
+
 				},
 				1000:{
-					items: 3
+					items: 3,
+					touchDrag: true,
+                	mouseDrag: true
 				}
 			}
 		});
@@ -145,13 +152,19 @@
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
-					items: 1
+					items: 1,
+					touchDrag: false,
+                	mouseDrag: false
 				},
-				600:{
-					items: 2
+				769:{
+					items: 2,
+					touchDrag: true,
+                	mouseDrag: true
 				},
 				1000:{
-					items: 3
+					items: 3,
+					touchDrag: true,
+                	mouseDrag: true
 				}
 			}
 		});
