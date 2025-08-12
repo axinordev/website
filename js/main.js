@@ -117,6 +117,7 @@
 			items:1,
 			margin: 30,
 			stagePadding: 0,
+			autoplayHoverPause: false,
 			nav: false,
 			dots: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
