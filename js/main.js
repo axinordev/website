@@ -24,6 +24,30 @@
 	}
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("whatsappForm");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const subject = document.getElementById("subject").value;
+        const message = document.getElementById("message").value;
+
+        const phoneNumber = "6238887280";
+
+        const whatsappMessage = `Hello, my name is ${name}.
+			Email: ${email}
+			Subject: ${subject}
+			Message: ${message}`;
+
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+        window.open(url, "_blank");
+    });
+});
+
+
 	var fullHeight = function() {
 
 		$('.js-fullheight').css('height', $(window).height());
