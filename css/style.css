@@ -2237,6 +2237,12 @@ h1, h2, h3,
     -ms-transform: scale(1.2);
     transform: scale(1.2); }
 
+  @media (max-width: 991.98px) {
+    .project .text {
+      opacity: 1; 
+    }
+  }
+
 .ftco-project .owl-carousel {
   margin: 0; }
 

@@ -16,6 +16,13 @@
     scrollProperty: 'scroll'
   });
 
+	if (window.matchMedia("(max-width: 768px)").matches) {
+	document.getElementById("bgDiv1").style.backgroundImage = "url('images/background4.jpg')";
+	}
+	if (window.matchMedia("(max-width: 768px)").matches) {
+	document.getElementById("bgDiv2").style.backgroundImage = "url('images/background4.jpg')";
+	}
+
 
 	var fullHeight = function() {
 
@@ -81,13 +88,6 @@
 	};
 
 	onePageClick();
-	
-if (window.matchMedia("(max-width: 768px)").matches) {
-  document.getElementById("bgDiv1").style.backgroundImage = "url('images/background4.jpg')";
-}
-if (window.matchMedia("(max-width: 768px)").matches) {
-  document.getElementById("bgDiv2").style.backgroundImage = "url('images/background4.jpg')";
-}
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
