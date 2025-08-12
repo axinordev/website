@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const subject = document.getElementById("subject").value;
         const message = document.getElementById("message").value;
 
-        const phoneNumber = "6238887280";
+        const phoneNumber = "916238887280";
 
         const whatsappMessage = `Hello, my name is ${name}.
 			Email: ${email}
