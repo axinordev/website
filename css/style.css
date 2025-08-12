@@ -2485,6 +2485,16 @@ h1, h2, h3,
     content: '';
     width: 360%;
     background: rgba(255, 255, 255, 0.9); }
+    @media(max-width: 767.98px){
+      .services-wrap:after {
+        position: absolute;
+        top: 0;
+        left: 80%;
+        bottom: 0;
+        content: '';
+        width: 300%;
+        background: rgba(255, 255, 255, 0.9); }
+    }
   .services-wrap h2 {
     color: #bd4772;
     font-size: 24px; }
